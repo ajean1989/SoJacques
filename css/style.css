@@ -1,0 +1,150 @@
+@font-face {
+	font-family: 'POL1';
+	src: url('ModernSans-Light.otf');
+}
+
+@font-face {
+	font-family: 'POL2';
+	src: url('Heartland.otf');
+}
+
+body{
+	font-family: POL1;
+	background-color: black;
+}
+
+header{
+	display: flex;
+	justify-content: center;
+	background-color: black; 
+	margin-top: 0px;
+}
+
+
+}
+h1{
+	color: black; 
+	font-size: 4em;
+	margin-left: 20px;
+	font-family: POL2
+}
+
+/* img{
+	max-height: 5em;
+}*/
+
+a{
+	text-decoration: none;
+	color:whitesmoke;
+}
+a:hover{
+	text-decoration: none;
+	color: rgb(255,6,255);
+}
+
+nav a{
+	color:  black;
+}
+
+li{
+	margin-left : 50px;
+	margin-right: 50px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	list-style-type: none;
+}
+
+ul{
+	margin-top: 5px;
+}
+
+ol li{
+	margin-left : 0px;
+	list-style-type: inherit;
+}
+
+
+
+#conteneurnav{
+	display:flex;
+	justify-content: flex-end;
+	background-color: #F6CAA8; /* #d587d1; */
+	border-radius: 10px 10px 10px 10px; 
+	height: 4em;
+}
+
+
+
+#conteneur{
+	display: flex;
+	flex-direction: column;
+	width : 80%;
+	margin: auto;
+}
+
+
+header img{
+	max-width : 50%;
+	display: block;
+	margin :auto;
+}
+
+section img{
+	max-width : 1200px;
+	display: flex;
+	flex-direction: column;
+	margin :auto;
+	width: 100%;
+	border-radius: 10px;
+}
+
+
+article{
+	width :85%;
+	display: flex;
+	flex-direction: column;
+	margin :auto;
+	color:  whitesmoke;
+}
+
+p{
+	font-size: 1.1em;
+}
+
+@media all and (max-width: 1000px)
+{
+    h1{
+    	font-size: 2em;
+    }
+
+    body{
+	background-color: black;
+	}
+
+    header{
+	display: flex;
+	justify-content: center;
+	background-color: black; 
+	}
+
+	li{
+	margin-left : 25px;
+	margin-right: 15px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	list-style-type: none;
+	}
+
+	#conteneur{
+	display: flex;
+	flex-direction: column;
+	width : 100%;
+	margin: auto;
+	}
+	article{
+	width :100%;
+	margin :auto;
+	}
+
+
+}
